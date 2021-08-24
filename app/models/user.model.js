@@ -7,7 +7,7 @@ module.exports=mongoose=>{
         email:String,
         city:String
     })
-
+    
     const User=mongoose.model("users",schema)
     return User
 }
